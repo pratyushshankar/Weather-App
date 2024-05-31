@@ -166,6 +166,6 @@ async function fetchSearchWeatherInfo(city) {
         renderWeatherInfo(data);
     }
     catch(err) {
-        console.log("result not found");
+        console.log("not fectchin the data");
     }
 }
